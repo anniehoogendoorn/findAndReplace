@@ -5,7 +5,7 @@
 
 ##Description
 
-A web app where a user can enter a string, choose a word to find and provide a replacement for that word.
+This is a web app that lets a user enter a string, choose a word to find and provide a replacement for that word.
 
 ##Setup
 
@@ -15,7 +15,7 @@ A web app where a user can enter a string, choose a word to find and provide a r
 
 ##Technologies Used
 
-JavaScript, jquery, HTML and CSS
+JavaScript, jquery, HTML, CSS and Bootstrap.
 
 ###Legal
 
