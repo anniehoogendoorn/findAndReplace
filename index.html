@@ -10,16 +10,28 @@
   <body>
     <div class="container">
       <div class = "row">
-        <div class="col-sm-4">
-          <h1>Find and Replace></h1>
+        <div class="col-sm-8">
+          <h1>Find and Replace</h1>
 
           <form id="user_input">
+            <div class="form-group">
+              <input id="input_string" name="input_string" class= "form-control" type="text" placeholder="Enter a sentence">
+            </div>
+            <div class="form-group">
+              <input id="word" name="word" class= "form-control" type="text" placeholder="Enter a word to replace">
+            </div>
+            <div class="form-group">
+              <input id="new_word" name="new_word" class= "form-control" type="text" placeholder="Enter a new word">
+            </div>
 
-
-            
+            <button type="submit" class="btn btn-success">Replace</button>
           </form>
+          <br>
+
           <div id="results">
-            <p>Here is your new sentence: <span id="output"></span></p>
+            <h3>Here is your updated sentence:</h3>
+            <p><span id="result"></span></p>
+          </div>
         </div>
       </div>
     </div>
