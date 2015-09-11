@@ -1,6 +1,6 @@
 var findAndReplace = function(input_string, word, new_word) {
 
-  var word = new RegExp(word, "i");
+  var word = new RegExp(word, "gi");
 
   if (input_string.match(word)) {
     var output_string = input_string.replace(word, new_word);

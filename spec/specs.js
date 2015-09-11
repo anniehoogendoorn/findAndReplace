@@ -12,5 +12,9 @@ describe('findAndReplace', function() {
     expect(findAndReplace('Hello world', 'hello', 'Hi')).to.equal('Hi world');
   });
 
-  debugger;
+  it("will find and replace multiple instances of a word", function() {
+    expect(findAndReplace('Hello world world', 'world', 'planet')).to.equal('Hello planet planet')
+  });
+
+  // debugger;
 });
