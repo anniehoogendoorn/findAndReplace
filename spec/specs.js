@@ -5,11 +5,11 @@ describe('findAndReplace', function() {
   });
 
   it('will return instruction to try again if word is not part of the string', function() {
-    expect(findAndReplace('hello world', 'halo', 'hi')).to.equal("Your entered word is not part of your sentence. Try again");
+    expect(findAndReplace('hello world', 'halo', 'hi')).to.equal("The word you want to replace is not part of your sentence. Try again!");
   });
 
   it('will find a word in a string and replace it with a new word regardless of case', function() {
-    expect(findAndReplace('Hello world', 'hello', 'Hi')).to.equaul('Hi world');
+    expect(findAndReplace('Hello world', 'hello', 'Hi')).to.equal('Hi world');
   });
 
   debugger;
