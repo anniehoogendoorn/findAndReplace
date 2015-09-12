@@ -16,5 +16,4 @@ describe('findAndReplace', function() {
     expect(findAndReplace('Hello world world', 'world', 'planet')).to.equal('Hello planet planet')
   });
 
-  // debugger;
 });

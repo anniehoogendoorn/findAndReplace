@@ -9,9 +9,7 @@ var findAndReplace = function(input_string, word, new_word) {
   else {
     return "The word you want to replace is not part of your sentence. Try again!"
   }
-
 }
-
 
 $(document).ready(function() {
   $("form#user_input").submit(function(event) {
