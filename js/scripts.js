@@ -1,7 +1,9 @@
 var findAndReplace = function(input_string, word, new_word) {
 
+  //RegEx to ignore casing ("i") and replace multiple words ("g")
   var word = new RegExp(word, "gi");
 
+  //Check if word is part of input string
   if (input_string.match(word)) {
     var output_string = input_string.replace(word, new_word);
     return output_string;
